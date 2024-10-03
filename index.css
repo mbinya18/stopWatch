@@ -1,0 +1,30 @@
+body{
+  font-family: fantasy;
+  margin: 0;
+  background: rgb(175, 174, 172);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stopwatch-container{
+  text-align: center;
+}
+#stopwatch{
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: blueviolet;
+  border: 2px solid rgb(24, 22, 22);
+  border-radius: 10px;
+}
+
+button{
+  cursor: pointer;
+  padding: 15px;
+  background-color: rgb(134, 134, 165);
+  border-radius: 10px;
+}
+
+button:hover{
+  background-color: rgb(13, 233, 50);
+}
